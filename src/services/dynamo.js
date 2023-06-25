@@ -1,6 +1,4 @@
 const AWS = require('aws-sdk');
-const { reject } = require('promise');
-
 const aws_region = process.env.AWS_REGION;
 const access_id = process.env.ACCESS_KEY_ID;
 const access_secret_key = process.env.SECRET_ACCESS_KEY;
