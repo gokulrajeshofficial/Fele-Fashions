@@ -1,8 +1,8 @@
 const express = require('express');
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv')
+dotenv.config()
 const indexRouter = require('./routers/routers');
 const morgan = require('morgan');
-
 
 const app = express();
 const port = process.env.PORt
